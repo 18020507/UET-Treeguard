@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import Switch from 'react-bootstrap/esm/Switch';
-import { Redirect } from 'react-router-dom';
-import bcrypt from 'bcryptjs';
 
 class Login extends Component {
   constructor(props) {
@@ -92,12 +89,6 @@ class Login extends Component {
           />
         </div>
 
-        {/* <div className="form-group">
-                    <div className="custom-control custom-checkbox">
-                        <input type="checkbox" className="custom-control-input" id="customCheck1" />
-                        <label className="custom-control-label" htmlFor="customCheck1">Remember me</label>
-                    </div>
-                </div> */}
         {message}
         <button type="submit" className="btn btn-dark btn-lg btn-block">Sign in</button>
         <hr />
